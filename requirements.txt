@@ -1,0 +1,4 @@
+# Configuration helpers only; install model/UI dependencies when implemented.
+# Supported dependency ranges, not a reproducibility lock file.
+PyYAML>=6.0,<7.0
+python-dotenv>=1.0,<2.0

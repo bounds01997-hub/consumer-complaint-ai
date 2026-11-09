@@ -1,0 +1,39 @@
+# Public structural template only. No authorized business labels are included.
+# This is a YAML template, not an implemented validation schema.
+schema_version: "0.1.0"
+status: "template_only"
+business_standard:
+  source: "user_authorized_six_layer_system"
+  version: null
+  local_source_reference: null
+layer_count: 6
+# Positions do not imply a parent-child hierarchy. Names and labels stay empty.
+layers:
+  - position: 1
+    name: null
+    labels: []
+  - position: 2
+    name: null
+    labels: []
+  - position: 3
+    name: null
+    labels: []
+  - position: 4
+    name: null
+    labels: []
+  - position: 5
+    name: null
+    labels: []
+  - position: 6
+    name: null
+    labels: []
+# Field names only; not a real label. Fill authorized copies in rules/local/.
+label_entry_template:
+  label_id: null
+  label_name: null
+  definition: null
+  inclusion_criteria: []
+  exclusion_criteria: []
+# Actual mappings and inter-layer relationships must be maintained locally.
+label_mappings: []
+layer_relationships: []

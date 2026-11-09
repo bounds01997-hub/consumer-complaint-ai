@@ -1,0 +1,17 @@
+# Public template only. Empty rules cannot classify complaints.
+schema_version: "0.1.0"
+status: "template_only"
+business_standard_version: null
+label_schema_version: "0.1.0"
+rules: []
+# Documentation of possible fields only; this object is NOT an active rule.
+# Matching semantics, priority and conflict handling need explicit design later.
+rule_entry_template:
+  rule_id: null
+  description: null
+  target_layer_position: null
+  target_label_id: null
+  conditions: []
+  exceptions: []
+  source_reference: null
+# Do not insert real rules, mappings or complaint examples into this public file.
